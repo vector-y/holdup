@@ -104,8 +104,8 @@ const Navbar = () => {
                 </div>
                 <nav className="hidden md:flex space-x-10">
                   <NavItem href="/about" text="About"/>
-                  <NavItem href="/portfolio" text="Portfolio"/>
-                  <NavItem href="/gallery" text="Gallery"/>
+                  <NavItem href="/roadmap" text="Roadmap"/>
+                  <NavItem href="/Contact" text="Contact"/>
                 </nav>
                 <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                   <motion.button
@@ -120,7 +120,7 @@ const Navbar = () => {
                     )}
                   </motion.button>
                   <ExternalLink href="https://docs.google.com/document/d/1yJT8ggDQm4Ys8auysyUR0Ro9Hxn-oMcQpNaFODScGbk/edit?usp=sharing">
-                    <button id='resume' className="oldContact">Résumé</button>
+                    <button id='resume' className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-2xl shadow-sm text-base font-medium text-white bg-indigo-500 hover:bg-indigo-700">Login</button>
                   </ExternalLink>
                 </div>
               </div>
@@ -218,7 +218,7 @@ const Navbar = () => {
                   </div>
                   <ExternalLink href="https://docs.google.com/document/d/1yJT8ggDQm4Ys8auysyUR0Ro9Hxn-oMcQpNaFODScGbk/edit?usp=sharing">
                       <button id='resume' className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-2xl shadow-sm text-base font-medium text-white bg-indigo-400 hover:bg-indigo-500">
-                        Résumé
+                        Login
                       </button>
                   </ExternalLink>
                 </div>
