@@ -2,6 +2,7 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
+// import ResponsiveNavbar from "../components/ResponsiveNavbar";
 import Hero from "../components/Hero";
 import Features from "../components/Features";
 import Secure from "../components/Secure";
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-white">
         <Navbar/>
+        {/* <ResponsiveNavbar/> */}
         <Hero/>
         <Features/>
         <Secure/>
