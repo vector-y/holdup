@@ -4,6 +4,7 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 // import ResponsiveNavbar from "../components/ResponsiveNavbar";
 import Hero from "../components/Hero";
+import OldFeatures from "../components/OldFeatures";
 import Features from "../components/Features";
 import Secure from "../components/Secure";
 
