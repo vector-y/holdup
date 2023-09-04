@@ -8,6 +8,7 @@ import OldFeatures from "../components/OldFeatures";
 import Features from "../components/Features";
 import Secure from "../components/Secure";
 import Footer from "~/components/Footer";
+import Carousel from "~/components/Carousel";
 
 const Home: NextPage = () => {
 
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
         {/* <ResponsiveNavbar/> */}
         <Hero/>
         <Features/>
+        <Carousel/>
         <Secure/>
         <Footer/>
       </main>

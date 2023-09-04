@@ -6,17 +6,17 @@ const Features = () => {
             <h2 className='text-4xl font-bold tracking-tight lg:text-5xl/[1.25] xl:text-6xl/[1.2] text-black'>
                 Share your all of your betas.
             </h2>
-            <div className='mt-10 grid gap-2 lg:grid-cols-2'>
+            <div className='mt-8 grid gap-2 lg:grid-cols-2'>
                 <div className='border-secondary flex flex-col rounded-lg border bg-gray-50 p-6'>
-                    <div className='flex flex-1 items-center justify-center pb-6 lg:px-8 lg:py-16'>    
-                        <img width='80%' src='./iphone14.png' className='relative'></img> 
+                    <div className='flex flex-1 items-center justify-center pb-6 lg:px-8 lg:py-8'>    
+                        <img width='100%' src='./beta.png' className='relative'></img> 
                     </div>
                     <div className='flex flex-col'>
                         <p className='font-semibold text-lg'>
-                            Share images and videos of your progress.
+                            Everyone shares.
                         </p>
                         <p className='font-normal text-lg text-secondary'>
-                            From your camera roll or straight from your camera.
+                            View all problems within your gym and see what everyone's up to.
                         </p>
                     </div>
                 </div>
@@ -24,25 +24,23 @@ const Features = () => {
                 <div className='border-secondary flex flex-col rounded-lg border bg-gray-50'>
                     <div className='flex flex-col p-6'>
                         <p className='font-semibold text-lg'>
-                            Annotatations
+                            Local gyms.
                         </p>
                         <p className='font-normal text-lg text-secondary'>
-                            Share your directions visually.
+                            Find gyms supporting your betas, or add one yourself.
                         </p>
                     </div>
-                    <img width='50%' src='postProblem.png' className='relative'>
-                    </img>
+                    <img width='75%' src='location.png' className='relative self-center pb-8'/>
                 </div>
 
                 <div className='border-secondary relative flex flex-col items-center gap-6 overflow-hidden rounded-lg border bg-gray-50 p-6 pt-0 md:col-span-2'>
-                    <img width='633' height='458' className='relative'>
-                    </img>
+                    <img width='500vh' src='solved.png' className='relative self-center pb-4'/>
                     <div className='flex flex-col text-center'>
                         <p className='font-semibold text-lg'>
-                            Discussions
+                            Visible Progress.
                         </p>
                         <p className='font-normal text-lg text-secondary'>
-                            Talk to your community and share ideas about climbing.
+                            Measure your growth over time and catalog your efforts.
                         </p>
                     </div>
                 </div>
