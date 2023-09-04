@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import OldFeatures from "../components/OldFeatures";
 import Features from "../components/Features";
 import Secure from "../components/Secure";
+import Footer from "~/components/Footer";
 
 const Home: NextPage = () => {
 
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
         <Hero/>
         <Features/>
         <Secure/>
+        <Footer/>
       </main>
     </>
   );

@@ -29,16 +29,16 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="w-full bg-white border-gray-200 dark:bg-gray-900">
+    <nav className="w-full bg-white border-gray-20">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://www.holdupclimbing.com/" className="flex items-center">
           <img src="./logo.png" className="h-8 mr-3" alt="Holdup Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Holdup</span>
+          <span className="self-center text-2xl font-semibold whitespace-nowrap">Holdup</span>
         </a>
         <button
           onClick={handleMenuToggle}
           type="button"
-          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
           aria-controls="navbar-default"
           aria-expanded={isMenuOpen}
         >
@@ -48,12 +48,12 @@ const Navbar: React.FC = () => {
           </svg>
         </button>
         <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
-        <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
               {/* <a href="#" className="py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a> */}
-              <Link href="#" className='text-black block px-3 py-2 text-base font-medium md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all' aria-current="page">About</Link>
-              <Link href="#" className='text-black block px-3 py-2 text-base font-medium md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all' aria-current="page">Roadmap</Link>
-              <Link href="#" className='text-black block px-3 py-2 text-base font-medium md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all' aria-current="page">Contact</Link>
-              <Link href="/login" className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-2xl shadow-sm text-base font-medium text-white bg-indigo-500 hover:bg-indigo-700">Login</Link>
+              <Link href="#" className='text-black block px-3 py-2 text-base font-medium md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-200 transition-all' aria-current="page">About</Link>
+              <Link href="#" className='text-black block px-3 py-2 text-base font-medium md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-200 transition-all' aria-current="page">Roadmap</Link>
+              <Link href="#" className='text-black block px-3 py-2 text-base font-medium md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-200 transition-all' aria-current="page">Contact</Link>
+              <Link href="/login" className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-2xl shadow-sm text-base font-medium text-white bg-slate-500 hover:bg-green-500">Download</Link>
           </ul>
         </div>
       </div>
